@@ -8,7 +8,6 @@ import { PrimeModule } from './prime/prime.module';
 import { SidebarComponent } from './template/sidebar/sidebar.component';
 import { HeaderComponent } from './template/header/header.component';
 import { FooterComponent } from './template/footer/footer.component';
-import { PanelModule } from 'primeng/panel';
 
 
 @NgModule({
@@ -23,7 +22,6 @@ import { PanelModule } from 'primeng/panel';
     BrowserAnimationsModule,
     AppRoutingModule,
     PrimeModule,
-    PanelModule
   ],
   providers: [],
   bootstrap: [AppComponent]

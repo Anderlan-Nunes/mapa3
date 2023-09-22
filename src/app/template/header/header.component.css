@@ -1,0 +1,7 @@
+p-toolbar {
+    background-color: blue;
+}
+
+p-toolbar .logo {
+    max-height: 32px;
+}
