@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent {
+  sidebarVisible: boolean = true;
 
+  transitionOptions = {
+    name: 'ease-in-out', // Nome da animação
+    duration: '0.3s', // Duração da animação
+  }
 }

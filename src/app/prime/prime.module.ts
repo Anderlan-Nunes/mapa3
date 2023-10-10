@@ -3,12 +3,14 @@ import { CommonModule } from '@angular/common';
 import { ButtonModule } from 'primeng/button';
 import { PanelModule } from 'primeng/panel';
 import { ToolbarModule } from 'primeng/toolbar';
+import { SidebarModule } from 'primeng/sidebar';
 
 
 const prime = [
   ButtonModule,
   PanelModule,
-  ToolbarModule
+  ToolbarModule,
+  SidebarModule
 ]
 
 @NgModule({

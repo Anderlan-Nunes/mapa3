@@ -1,7 +1,5 @@
-p-toolbar {
-    background-color: blue;
-}
-
 p-toolbar .logo {
     max-height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.404);
+    border-radius: 3px;
 }
