@@ -2,8 +2,14 @@
     background-color: transparent !important;
   } */
 
-  /* ::ng-deep .p-sidebar-active  {
-    background-color: #0f0ce9; 
-    color: #e90e0e; 
-  
-  } */
+/* ::ng-deep .p-sidebar-active  {
+  background-color: rgb(17, 17, 17); 
+} */
+
+.custon-sidebar{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
